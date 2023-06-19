@@ -9,7 +9,7 @@ for c in range(0, 5):
         while pos < len(lista):
             if n <= lista[pos]:
                 lista.insert(pos, n)
-                print(f'Adicionamos na posição { pos } da lista.')
+                print(f'Adicionado na posição { pos } da lista.')
                 break
             pos += 1
 print('=-' * 30)
